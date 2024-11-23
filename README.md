@@ -1,5 +1,7 @@
 # DQN Breakout Agent
 
+![ALE](img/snapshot.png)
+
 This project utilizes Deep Q-Networks (DQN) to train an AI agent to play the Atari Breakout game. The project is structured into two main files:
 
 - `train.py`: A script to train the DQN agent.
