@@ -71,6 +71,15 @@ To run the trained model and play the game for 5 episodes, use the following com
 ```bash
 python3 play.py
 ```
+## Limitations
+
+This project was created to explore the process of training and evaluating an RL agent. The setup is intentionally lightweight, which may limit the overall performance of the trained agent. To achieve better results, consider the following:
+
+### 1. Increase Training Timesteps
+Training the agent for only 50,000 timesteps (as in this setup) is insufficient for mastering the game. For meaningful results, training should run for millions of timesteps, which requires significantly more computational resources.
+
+### 2. Better Hardware
+The training process can be time-consuming on standard CPUs. Using a GPU with CUDA support will significantly accelerate training. For optimal performance, consider cloud platforms like AWS, GCP, or Azure, which provide high-performance GPU instances.
 
 ##  Conclusion
 
