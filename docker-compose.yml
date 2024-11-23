@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  breakout-agent:
+    build: .
+    container_name: breakout-agent
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["python", "train.py"]
